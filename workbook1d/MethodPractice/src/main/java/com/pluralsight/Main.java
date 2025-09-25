@@ -15,7 +15,7 @@ public class Main {
 
     }
     public static void sayGoodMorning(){
-        System.out.println("Good morning!");
+        System.out.println("Good morning!!");
     }
 
 
