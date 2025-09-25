@@ -27,7 +27,7 @@ public class Main {
 
             System.out.print("Would you like the sandwitch to be loaded please enter yes or no:");
             String loaded = input.next();
-        if (loaded.equalsIgnoreCase("yes")) {
+        if (Boolean.parseBoolean("yes")) {
             if (size == 1) {
                 price += 1.00;
             } else if (size == 2) {
