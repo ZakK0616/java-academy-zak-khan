@@ -25,6 +25,17 @@ public class Main {
             price = 0;
         }
 
+            System.out.print("Would you like the sandwitch to be loaded please enter yes or no:");
+            String loaded = input.next();
+        if (loaded.equalsIgnoreCase("yes")) {
+            if (size == 1) {
+                price += 1.00;
+            } else if (size == 2) {
+                price += 1.75;
+            }
+        }
+
+
 
             System.out.print("Enter your age:");
             int age = input.nextInt();
@@ -38,6 +49,8 @@ public class Main {
                 price *= 0.80;
             }
             System.out.println("The cost of your sandwitch is $" + price);
+
+
 
             input.close();
 
