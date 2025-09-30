@@ -1,8 +1,6 @@
-package com.pluralsight;
-
 import java.util.Scanner;
 
-public class Main {
+
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
 
@@ -10,15 +8,15 @@ public class Main {
         int grade = input.nextInt();
 
         if (grade >= 90){
-            System.out.println("A");
+            System.out.print("A");
         } else if (grade >= 89) {
-            System.out.println("B");
+            System.out.print("B");
         } else if (grade >= 79 ) {
-            System.out.println("C");
-        } else if (grade >= 60) {
+            System.out.print("C");
+        } else if (grade >= 69) {
             System.out.print("D");
         } else{
-            System.out.println("F");
+            System.out.print("F");
         }
         System.out.println("Your grade is " + grade);
     }
